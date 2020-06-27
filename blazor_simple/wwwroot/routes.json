@@ -1,0 +1,14 @@
+﻿{
+  "routes": [
+    {
+      "route": "/old",
+      "serve": "/index.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/*",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
+  ]
+}
